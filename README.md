@@ -7,16 +7,24 @@ It consist of UI with different fragments which will support different landscape
 
 * Application on Nexus 10 in landscape mode
 
+
 ![alt tag] (https://raw.githubusercontent.com/kunalbarve/LoanCalculator/master/images/Nexus10_Landscape.png)
+
+
 
 
 * Application on Samsung Galaxy in Portrait mode
 
+
 ![alt tag] (https://raw.githubusercontent.com/kunalbarve/LoanCalculator/master/images/Nexus5_Portrait_1.png)
+
 
 ![alt tag] (https://raw.githubusercontent.com/kunalbarve/LoanCalculator/master/images/Nexus5_Portrait_2.png)
 
 
+
+
 * Application on Samsung Galaxy in Landscape mode
+
 
 ![alt tag] (https://raw.githubusercontent.com/kunalbarve/LoanCalculator/master/images/Nexus5_Landscape.png)
