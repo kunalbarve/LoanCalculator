@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/black"
+    tools:context=".PaymentDetails">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repayment Details:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#24d9ff"
+        android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/totalTax"
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:hint="Total Tax"
+            android:background="@drawable/edit_style" />
+
+        <EditText
+            android:id="@+id/totalInterest"
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:hint="Total Interest"
+            android:background="@drawable/edit_style" />
+
+        <EditText
+            android:id="@+id/monthlyPayment"
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:hint="Monthly Installment"
+            android:background="@drawable/edit_style" />
+
+        <EditText
+            android:id="@+id/dueDate"
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:hint="Due Date"
+            android:background="@drawable/edit_style" />
+
+
+    </LinearLayout>
+</RelativeLayout>
+

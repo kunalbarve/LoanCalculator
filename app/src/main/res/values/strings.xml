@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mortgage Calculator</string>
+    <string name="action_settings">Reset</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="label_color">#177dff</string>
+
+    <string-array name="terms_array">
+        <item>Select Years</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>40</item>
+    </string-array>
+</resources>

@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/black"
+    tools:context=".MainActivityFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loan Details:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#24d9ff"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/homeValue"
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:hint="Home Value"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edit_style" />
+
+        <EditText
+            android:id="@+id/downPayment"
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:hint="Down Payment"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edit_style" />
+
+        <EditText
+            android:id="@+id/anualRate"
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:hint="APR"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edit_style" />
+
+        <Spinner
+            android:layout_margin="15dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:id="@+id/terms"
+            android:spinnerMode="dropdown"
+            android:background="@drawable/edit_style" />
+
+        <EditText
+            android:id="@+id/taxRate"
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:hint="Tax Rate"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edit_style" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:id="@+id/calculate"
+            android:background="#24d9ff"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>
